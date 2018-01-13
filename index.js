@@ -16,6 +16,7 @@ function addToCart(item) {
 }
 
 function viewCart() {
+  let string
   if (cart.length < 1) {
     string = 'Your shopping cart is empty.'
   } else {
