@@ -26,8 +26,7 @@ function viewCart() {
       string += ` ${key} at $${cart[0][key]}`
     }
   }
-  
-  
+  string += '.'
 }
 
 cart = [{bananas: 17}]
