@@ -26,7 +26,7 @@ function viewCart() {
 }
 
 card = [{bananas: 17}]
-viewcart()
+viewCart()
 
 function total() {
   // write your code here
