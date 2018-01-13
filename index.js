@@ -27,6 +27,7 @@ function viewCart() {
     }
   }
   string += '.'
+  console.log(string)
 }
 
 cart = [{bananas: 17}]
