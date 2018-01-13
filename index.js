@@ -21,9 +21,12 @@ function viewCart() {
   }
   
   if (cart.length === 1) {
-    console.log(`In your cart, you have ${cart[0].keys[0]} at)
+    console.log(`In your cart, you have ${cart[0].keys[0]}`)
   }
 }
+
+card = [{bananas: 17}]
+viewcart()
 
 function total() {
   // write your code here
