@@ -21,7 +21,7 @@ function viewCart() {
   }
   
   if (cart.length === 1) {
-    console.log(`In your cart, you have ${cart[0].keys[0]}`)
+    console.log(`In your cart, you have ${Object.keys(cart[0])[0]}`)
   }
 }
 
